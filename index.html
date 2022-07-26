@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 1 y 2
+    </title>
+</head>
+
+<body>
+
+    <div>
+        
+    <header>
+        <h1>Titulo de pagina</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"> Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="#"> Contactenos</a>
+                </li>
+                <li>
+                    <a href="#"> Ayuda</a>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <table>
+                <!-- tabla -->
+                <tr>
+                    <!-- (table role) fila de la tabla -->
+                    <th> Lunes </th>
+                    <th> Martes </th>
+                    <!--(table header) encabezado de tabla-->
+                    <th> Miercoles </th>
+                    <th> Jueves </th>
+                    <th> Viernes </th>
+                </tr>
+                <tr>
+                    <td>
+                        <!--(table data) datos de la tabla-->
+                        Gym
+                    </td>
+                    <td>
+                        Cursar
+                    </td>
+                    <td>
+                        Libre
+                    </td>
+                    <td>
+                        Trabajar
+                    </td>
+                    <td> Salir</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <!--(table data) datos de la tabla-->
+                        trabajar
+                    </td>
+                    <td>
+                        gym
+                    </td>
+                    <td>
+                        facultad
+                    </td>
+                    <td>
+                        libre
+                    </td>
+                    <td> estudiar</td>
+
+                </tr>
+            </table>
+
+            <br>
+
+        </section>
+
+        <section>
+            <h2>Formularios</h2>
+            
+            <form action="/asdadsad" method="post">
+
+                <div>
+                    <!--(contenedor) elemento en bloque, por ende ocupara todo el ancho.-->
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingresa tu nombre" />
+                    <!--el placeholder es la letrita gris sobre el formulario-->
+                </div>
+
+                <div>
+                    <label for="nombre">Apellido</label>
+                    <input type="text" id="apellido" />
+
+                </div>
+
+                <div>
+                    <label for="correo">Correo electronico</label>
+                    <input type="email" id="correo" required />
+                    <!--required es la opcion que te obliga a completar si o si el campo, se aplica al elemento INPUT-->
+                </div>
+
+                <div>
+                    <label for="nombre">Password</label>
+                    <input type="password" id="password" />
+                    <!--el input es el tipo de formato, en pw aparecen los *** por ejemplo.-->
+
+                </div>
+
+                <div>
+                    <label for="dni">Numero DNI</label>
+                    <input type="number" id="dni" />
+                </div>
+
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input type="tel" id="telefono" />
+                </div>
+
+                <div>
+                    <label for="terminos">Acepta terminos y condiciones?</label>
+                    <input type="checkbox" id="terminos" />
+                </div>
+
+                <div>
+                    <h3>A que se dedica?</h3>
+                     <input type="radio" name="profesion" id="empleado">
+                     <label for="empleado">Empleado?</label>
+                     <input type="radio" name="profesion" id="estudiante">
+                     <label for="estudiante">Estudiante</label>
+                     <input type="radio" name="profesion" id="autonomo">
+                     <label for="autonomo">Autonomo</label>
+                     <input type="radio" name="profesion" id="jubilado">
+                     <label for="jubilado">Jubilado</label>
+                </div>
+
+                <div>
+                    <select name="edad" id="edad">
+                        <option>Seleccione su rango de edad</option>
+                        <option value="1822">18 a 22 años</option>
+                        <option value="2330">23 a 30 años </option>
+                        <option value="3150">31 a 50 años</option>
+                        <option value="mas51">51 o mas</option>
+
+                    </select>
+                    
+                </div>
+
+                <div>
+                    <label for="fechaNacimiento">Fecha de nacimiento</label>
+                    <input type="date" id="fechaNacimiento">
+                </div>
+
+                 <div>
+
+                 <textarea name="description" id="description" cols="30" rows="10" placeholder="Escriba una descripcion"></textarea>
+
+                 </div>
+
+                <div>
+                    <!--enviar formulario usando input-->
+                    <input type="submit" value="Enviar formulario">
+
+                    <br>
+
+                    <!--enviar formulario usando un boton-->
+                    <button type="submit">ENVIAR</button>
+                </div>
+            </form>
+            
+        </section>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li>Sobre nosotrose</li>
+            <li>Contactenos</li>
+            <li>Ayuda</li>
+        </ul>
+    </footer>
+
+</div>
+
+</body>
+
+</html>
